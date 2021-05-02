@@ -148,17 +148,6 @@ public class TestVectorsV3 {
                     }
                 }
 
-                Assertions.assertEquals("03dc41458b939d966a0e141281c2a7c5faf184dc43bc26160f0ffc3c583600c9b6", pubkeys.get(0));
-                Assertions.assertEquals("02513de274f78ce0c8cb827f25aae2ade941ac9d482002fc04ef60d580c5403afd", pubkeys.get(1));
-                Assertions.assertEquals("033cf4391b3e7daad0220b572d796ac0711e93e2ef389119d3ec0bed2debf0472a", pubkeys.get(2));
-                Assertions.assertEquals("02de639a0d80bc8b6976e71e5242b7f0ba5e9f8f6b317c0a180884424600bcaafc", pubkeys.get(3));
-                Assertions.assertEquals("036b08a58e0d664505c95e2e0ceaa87e34c82cc6ed91a94980fc631967cc8d931f", pubkeys.get(4));
-                Assertions.assertEquals("029d5dae4c27c59a9c207a1beafab9f1b8bef93e19b8bbd7614dae37e8f7c0210c", pubkeys.get(5));
-                Assertions.assertEquals("03003668a8915ba65adb9ff8cfcce7f8d5aae2655a210e1e863eda6cb41dd5e1d2", pubkeys.get(6));
-                Assertions.assertEquals("03a857d0bef97a0e5ffb1911e7cd13ced1bdce9c2a6a838dd5bdd8e805f44b8cc9", pubkeys.get(7));
-                Assertions.assertEquals("02bcfcdc2e7fbdaebf1fa69a74ccd219c919981353433538ff98979c252609c564", pubkeys.get(8));
-                Assertions.assertEquals("029dccbb87fec52713f90afbbef3e78dddef4dfa6858bbf2a5fd2fcd2582a5cf7f", pubkeys.get(9));
-
                 pubkeys.clear();
                 for(int idx = 0; idx < limit; idx++)   {
                     try {
@@ -191,17 +180,6 @@ public class TestVectorsV3 {
                         ;
                     }
                 }
-
-                Assertions.assertEquals("024edba30e70855e7846e850982f2eb3aefe33b292cc9a744604367de14cc018b8", pubkeys.get(0));
-                Assertions.assertEquals("03a769eb57ce38dc3f7d80c4464bc61b02153a8e881c472d6d3e99b1d8fe53100c", pubkeys.get(1));
-                Assertions.assertEquals("038f8e84682fb78ec6fdf3560020df035e144ce60bb9b09dd99b606d130140bd2c", pubkeys.get(2));
-                Assertions.assertEquals("0210964b717a97430e9ca206bf84e1b0834385a03af3c749d60ad632d31e511954", pubkeys.get(3));
-                Assertions.assertEquals("03b24c25099596f0984e4eedcc6147d1faff269a79f919e5d42414ea0691749174", pubkeys.get(4));
-                Assertions.assertEquals("0285b4cda5356a7333510fac98fc27da4df8a3fcf6f50df594fbe6013e78d64114", pubkeys.get(5));
-                Assertions.assertEquals("02a6946888b559db413f94a6de3aa974d4c22d881f132f753297baef510219327c", pubkeys.get(6));
-                Assertions.assertEquals("02ab944a2509a27b9b9f569736e6cb45cb1c900627573a01bb9dffe38131103a12", pubkeys.get(7));
-                Assertions.assertEquals("0276442e645c3f5e412b60ffac771a67b0ef1b652b18f18d101e9c6f70365cd183", pubkeys.get(8));
-                Assertions.assertEquals("039386636f65cbc72a70bacc0f43ee17862ead8d37941e72b630f37e048ef2d405", pubkeys.get(9));
 
             }
 
@@ -260,3 +238,4 @@ public class TestVectorsV3 {
     }
 
 }
+
