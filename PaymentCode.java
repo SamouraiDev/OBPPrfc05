@@ -174,8 +174,8 @@ public class PaymentCode {
         byte[] pl = new byte[PAYLOAD_LEN];
         byte[] pc = new byte[BLIND_LEN];
         System.arraycopy(G, 1, pc, 0, pc.length);
-        pl[0] = (byte)0x22;
-        pl[1] = (byte)0x03;
+        pl[0] = MAGIC_VALUE;
+        pl[1] = VERSION_3;
         pl[2] = G[0];
         System.arraycopy(Util.xor(bf, pc), 0, pl, 3, Util.xor(bf, pc).length);
 
